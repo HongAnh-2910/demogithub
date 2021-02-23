@@ -1,0 +1,342 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+#wrapper{
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    left: 0px;
+}
+.container{
+    width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#logo{
+    margin-top: 3px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+#logo{
+    padding-right: 67px;
+    
+}
+#header {
+    background: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d8d8d8;
+    position: fixed;
+    margin-left: 60px;
+}
+div#icon-respon {
+    position: absolute;
+    top: 22px;
+    right: 21px;
+    display: none;
+}
+ul#menu{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    position: fixed;
+    flex-wrap: wrap;
+}
+ul#menu li a{
+    text-transform: uppercase;
+    padding: 17px 40px 17px 0px;
+    font-weight: 500;
+    color: #262626;
+}
+
+ul#menu li a:hover{
+    color: green;
+    text-decoration: none;
+}
+#search {
+    position: relative;
+    padding-left: 14px;
+    left: 797px;
+}
+#search form input{
+    width: 180px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    /* font-size: 13px; */
+   
+}
+#search form input::placeholder{
+    font-size: 13px;
+    color: #bfbfbf;
+}
+#search form button{
+    position: absolute;
+    top:0px;
+    right: 1px;
+    padding: 6px 13px 1px 0px;
+    border: none;
+    outline: none;
+    margin-top: 1px;
+    background: none;
+    color: #a3a3a3;
+}
+/* ...........end-menu........... */
+#wp-content{
+    padding-top: 53px;
+    flex-wrap: wrap;
+}
+img{
+    max-width: 100%;
+    min-height: auto;
+}
+#content{
+    width: 68%;
+}
+#sidebar{
+    width: 32%;
+}
+#wp-cover{
+    padding-top: 30px;
+}
+.wiget-left{
+    flex: 0 0 500px;
+    padding-right: 30px;
+   
+}
+.highlights .title{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 64px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 23px;
+
+}
+ p{
+    margin-bottom: 0px;
+}
+.highlights .excerpts{
+    font-size: 15px;
+    color: #3f3f3f;
+    display: block;
+   
+}
+/* .......end left...... */
+.wiget-right{
+    width: 292px;
+
+}
+.wiget-sidebar{
+    width: 375px;
+    padding-left: 68px;
+    padding-top: 30px;
+}
+ul#more li .list-post {
+  display: flex;
+}
+ul#more li .title-post{
+    font-size: 14px;
+    color: #000000;
+    display: block;
+    padding-left: 18px;
+    font-weight: 500;
+}
+ul#more li .list-post .thumb-post{
+    margin-bottom: 20px;
+}
+/* ................... */
+.box-event .box-head h3{
+    background-color: #01a050;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fefefe;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+}
+.box-event .box-head{
+    border-bottom: 1px solid #01a050;
+    padding-top: 40px;
+}
+.left-event{
+    width: 500px;
+    padding-right: 30px;
+}
+.right-event{
+    width: 292px;
+}
+.left-event .title-event{
+    font-size: 16px;
+    color: #222222;
+    font-weight: bold;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.left-event .thumb-event{
+    float: left;
+    padding-right: 20px;
+}
+.box-event .box-body{
+    display: flex;
+}
+.box-body .excerpts-event{
+    font-size: 14px;
+    color: #3f3f3f;
+    display: block;
+    text-align: justify;
+}
+ul#list-event li .event-post{
+    padding-top: 24px;
+    display: flex;
+}
+ul#list-event li .list-excerpts{
+    font-size: 14px;
+    padding-left: 18px;
+    color: #000000;
+    display: block;
+    font-weight: 500;
+}
+
+/* ............... */
+
+.wiget-sidebar .ads{
+    padding-bottom: 40px;
+}
+.box-Most-read .box-head h3{
+    font-size: 21px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 18px;
+    font-weight: 500;
+}
+.box-Most-read .box-head{
+    border-bottom: 1px solid #01a050;
+}
+ul#list-most .most-post{
+  display: flex;
+  padding-top: 20px;
+}
+ul#list-most {
+    margin-bottom: 0px;
+}
+ul#list-most .most-post .most-excerpts a{
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+    padding-left: 20px;
+    color: #000000;
+}
+.wiget-sidebar .ads2{
+    padding-top: 50px;
+}
+
+/* ....////////////////// */
+#footer{
+    width: 100%;
+    background: #01a050;
+    margin-top: 80px;
+    padding-top: 46px;
+    color: #ffffff;
+    padding-bottom: 45px;
+}
+.box-footer{
+    flex: 0 0 293px;
+    padding-right: 15px;
+}
+.box-category{
+    flex: 0 0 195px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box-featured-news{
+    flex: 0 0 390px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box-fanpage{
+    flex: 0 0 292px;
+    padding-left: 15px;
+}
+.head-footer h3{
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 35px;
+    display: block;
+}
+.body-footer span{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.body-footer p{
+    font-size: 15px;
+    padding-right: 22px;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+ul#category li{
+    padding-bottom: 15px;
+}
+ul#list-news li{
+    padding-bottom: 15px;
+}
+#copy-right{
+    text-align: center;
+    font-size: 15px;
+    color: #454545;
+    display: block;
+    padding: 20px 0px;
+}
+
+.back-top {
+    width: 69px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid rebeccapurple;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #333;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+div#menu-respon {
+    position: absolute;
+    top: 0px;
+    left: -250px;
+    width: 250px;
+    min-height: 100%;
+    background: #d3dee4;
+}
+div#menu-respon #logo {
+    margin: 20px 38px;
+}
+div#menu-respon li {
+    border-top: 1px solid #33333359;
+    padding: 10px 0px;
+    padding-left: 56px;
+}
+#site{
+    position: relative;
+}
+#site.open #wrapper{
+    left: 250px;
+    transition: 0.4s;
+}
+#site.open #menu-respon{
+    left: 0px;
+    transition: 0.4s;
+}
